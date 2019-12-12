@@ -1,0 +1,30 @@
+.card {
+    width: 250px;
+    height: 350px;
+    border-style: solid;
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px 5px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+.card > div{
+    text-align: left;
+}
+
+.mineral {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: solid;
+    border-color: darkgray;
+    border-width: 2px;
+    margin: 0 auto;
+
+}
+
+.inner {
+    border-style: solid
+}
